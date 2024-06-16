@@ -46,11 +46,6 @@ main {
     border-radius: 5px;
 }
 
-aside {
-    flex: 1;
-    margin-left: 20px;
-}
-
 .categories, .recent-posts, .social-media {
     background-color: #fff;
     padding: 20px;
@@ -101,9 +96,5 @@ footer {
 @media (max-width: 768px) {
     main {
         flex-direction: column;
-    }
-
-    aside {
-        margin-left: 0;
     }
 }
